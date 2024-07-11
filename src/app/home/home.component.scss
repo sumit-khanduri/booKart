@@ -1,0 +1,115 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  height: 100vh;
+
+  .sub-container{
+    display:flex;
+    flex-direction: row;
+    background-color: #f55e5e;
+    color: #ffffff;
+    justify-content: space-evenly;
+    padding: 10px;
+
+  }
+  .notification{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px
+  }
+  .email{
+    display:flex;
+    //align-items: baseline;
+    flex-direction:row;
+    justify-content: space-between;
+  }
+
+  .email button{
+    height: 54px;
+  }
+
+  .banner{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    background-color: dodgerblue;
+    height: 40vh;
+    color:white;
+    justify-content: space-evenly;
+  }
+
+  .banner-text{
+
+  }
+
+  .banner-text h1{
+    font-size: xxx-large;
+  }
+
+  .banner-text h3{
+    font-size: large;
+  }
+  .banner-buttons {
+    display:flex;
+    flex-flow: row;
+    gap: 20px;
+  }
+  .price-drop-alert{
+    border: 3px solid darkred;
+    width:50%;
+    margin: auto;
+  }
+  .price-drop-alert h1 {
+    margin: auto;
+    height: 100px;
+    text-align: center;
+  }
+
+  .topTilesToday{
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+    width: 50%;
+    margin: auto;
+    height: 100%;
+    padding: 50px;
+
+  }
+  .toptiles-leftsection{
+    display:flex;
+    flex-direction: column;
+    width: 30%;
+    //height:100%;
+    vertical-align: center;
+    //justify-content: space-between;
+    padding: 20px;
+    gap:10px;
+  }
+
+  .toptiles-leftsection img {
+    width: 70%;
+    margin: auto;
+  }
+
+  .toptiles-leftsection h1 {
+    font-size: xxx-large;
+    margin: auto;
+    text-align: center;
+  }
+
+  .toptiles-rightsection{
+    width: 70%;
+    height: 100%;
+    background-color: lightyellow;
+    border-radius: 10px;
+  }
+
+  .logo img{
+    width: 100px;
+    height:100px;
+    border-radius: 50px;
+  }
+
+}
